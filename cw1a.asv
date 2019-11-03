@@ -1,0 +1,10 @@
+% Specify mean, covariance and likelihood functions
+meanfunc = [];
+covfunc = @covSEiso;
+likfunc = @likGauss;
+
+% Initialize hyperparameter struct -- see help covSEiso to understand these
+% hyperparameters
+hyp = struct('mean', [], 'cov', [0 0], 'lik', -1);
+
+
