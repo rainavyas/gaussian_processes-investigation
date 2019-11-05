@@ -1,0 +1,1 @@
+mesh(reshape(x(:,1),11,11),reshape(x(:,2),11,11),reshape(y,11,11));
